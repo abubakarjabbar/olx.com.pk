@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#headnavbar {
+    position: fixed;
+    border-bottom: 3px solid rgb(13 14 14 / 30%);
+    z-index: 1;
+    background-color: #F7F7F7;
+
+}
+
+
+
+
+nav.navbar.navbar-expand-lg {
+    width: 1263px;
+    height: 64px;
+}
+
+#headnavbar img {
+    width: 144.67px;
+    height: 106px;
+}
+
+
+
+div#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+.loginbtn {
+    border: 1px solid #D70F64 ;
+    color: #D70F64 ;
+    border-radius: 8px;
+    content: "";
+    inset: 0;
+    width: 72.35px;
+    height: 32px;
+    z-index: -1;
+    background: none;
+    font-weight: 500;
+}
+
+.signupbtn {
+    border: 1px solid #D70F64 ;
+    color: white;
+    border-radius: 8px;
+    content: "";
+    background-color: #D70F64 ;
+    inset: 0;
+    width: 72.35px;
+    height: 32px;
+    z-index: -1;
+}
+
+.cartbtn {
+
+    fill: #C21760;
+    border: 0;
+    content: "";
+    background: none;
+    inset: 0;
+    /* width: 72.35px;
+    height: 32px;
+    z-index: -1; */
+}
+
+#home {
+    background: #F7F7F7;
+    height: 672px;
+    display: flex;
+}
+
+#home img {
+    animation-name: fadeInvar(--bdsMotionDuration400)var(--bdsMotionEasingEntrance)var(--bdsMotionDelay400);
+    bottom: 0;
+
+
+    object-fit: cover;
+    object-position: left center;
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    margin: 60px 684px;
+}
+
+#home h1 {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 400;
+    width: 41%;
+    margin: 190px 15px 31px;
+}
+
+#home .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.webfound-refresh.location-form {
+    border-radius: 16px;
+    padding-top: 18px;
+}
+
+.location-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, .1);
+    flex-wrap: nowrap;
+    padding: 16px;
+    height: 76px;
+    width: 680px;
+}
+
+input#delivery-information-postal-index {
+    appearance: none;
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #333333;
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1em;
+    padding: 12px 15px;
+    position: relative;
+    resize: none;
+    transition: all .15s;
+    width: 550px;
+    z-index: 1;
+}
+
+.bds-c-btn:before {
+    border: 1px solid var(--colorTransparent);
+    border-radius: var(--bdsCornerRadiusButton);
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.findfood {
+    margin: 0 5px;
+    width: 95px;
+    height: 45px;
+}
+
+.page1 {
+    background: url(/public/img/home-vendor-pk.webp );
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 406px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.page1 .text-block__grid-item {
+    background-color: var(--colorWhite);
+    border-radius: var(--bdsCornerRadiusOverlay);
+    box-shadow: var(--bdsElevationLow);
+    grid-column: 1/-1;
+    padding: var(--bdsSpacingMd);
+}
+
+.container.cards {
+    padding-block: 225px;
+}
+
+h1.card-title {
+    font-size: 24px;
+}
+
+p.card-text {
+    padding: 24px 0;
+}
+
+a.signupbtn {
+    width: 108.48px;
+    height: 48px;
+    border: 1px solid #C21760;
+    color: white;
+    border-radius: 12px;
+    content: "";
+    background-color: #C21760;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #C21760 !important;
+    border-color: #C21760 !important;
+}
+
+.page1h {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    padding: 80px 0 30px 0px;
+}
